@@ -17,6 +17,10 @@
             font-size: 20px;
             font-weight:bold;
         }
+
+        p#score{
+            font-size: 40px;
+        }
     </style>
 </head>
 <body>
@@ -74,7 +78,7 @@
                 collisionCount++; 
                 collisionCountBottom++; 
                 score++;
-                document.getElementById("score").innerHTML ="Your Score: "+score;
+                document.getElementById("score").innerHTML =score;
             }
             if(ballY<10) {stepY = randomStep(); collisionCount++; collisionCountTop++;}
             
