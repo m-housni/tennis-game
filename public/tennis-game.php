@@ -1,14 +1,28 @@
 <html>
 <head>
     <title>Catch the ball !</title>
+
+    <style>
+        #canvas-container {
+            width: 100%;
+            text-align:center;
+        }
+
+        canvas {
+            display: inline;
+        }
+    </style>
 </head>
 <body>
+ 
+    <!-- To show the score -->
+    <p id="score"></p><br>
+
 
     <!-- Game field -->
-   <canvas id="gameCanvas" width="100%" height="70vh"></canvas>
-
-    <!-- To show the score -->
-    <p id="score" style="font-weight:bold; font-size:5; text-align:center"></p><br>
+    <div id="canvas-container">
+        <canvas id="gameCanvas" width="600" height="600" style=""></canvas>        
+    </div>
 
    <!-- Game logic -->
    <script>
