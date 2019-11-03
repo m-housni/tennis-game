@@ -3,13 +3,12 @@
     <title>Catch the ball !</title>
 </head>
 <body>
- 
-    <!-- To show the score -->
-    <p id="score"></p><br>
-
 
     <!-- Game field -->
-   <canvas id="gameCanvas" width="600" height="600"></canvas>
+   <canvas id="gameCanvas" width="100%" height="70vh"></canvas>
+
+    <!-- To show the score -->
+    <p id="score" style="font-weight:bold; font-size:5; text-align:center"></p><br>
 
    <!-- Game logic -->
    <script>
