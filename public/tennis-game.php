@@ -11,18 +11,26 @@
         canvas {
             display: inline;
         }
+
+        p{
+            text-align:center;
+            font-size: 5;
+            font-weight:bold;
+        }
     </style>
 </head>
 <body>
- 
-    <!-- To show the score -->
-    <p id="score"></p><br>
 
 
     <!-- Game field -->
     <div id="canvas-container">
         <canvas id="gameCanvas" width="600" height="600" style=""></canvas>        
     </div>
+
+    <!-- To show the score -->
+    <p>Open the game on a mobile or tablette browser</p>
+    <p>Your Score</p>
+    <p id="score"></p>
 
    <!-- Game logic -->
    <script>
